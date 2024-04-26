@@ -20,3 +20,5 @@
 # 3.vars from files
 # 4. vars from prompt
 # 5. vars from Play variables
+# 6. vars from inventory
+# 7. role level
