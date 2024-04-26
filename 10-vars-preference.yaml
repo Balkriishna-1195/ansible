@@ -8,7 +8,6 @@
   - name: WISHES
     prompt: please enter wishes
     private: false
-  
   tasks:
    - name: check preference
      vars:
