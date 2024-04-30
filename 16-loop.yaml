@@ -6,7 +6,6 @@
     ansible.builtin.dnf:
       msg: "{{ item }}"
       state: latest
-      enabled: yes
     loop: 
     - mysql
     - nginx
