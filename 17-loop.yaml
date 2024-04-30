@@ -6,6 +6,7 @@
     ansible.builtin.dnf:
       msg: "{{ item.name }}"
       state: "{{ item.state}}"
+      enabled: yes
     loop: 
     - {name: 'mysql', state: 'latest'}
     - {name: 'nginx', state: 'absent'}
