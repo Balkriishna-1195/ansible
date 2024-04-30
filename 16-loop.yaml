@@ -4,7 +4,7 @@
   - name: install packages
     ansible.builtin.dnf:
       msg: "{{ item }}"
-      state: latest
+      state: install_weak_deps
     loop: 
     - mysql
     - nginx
